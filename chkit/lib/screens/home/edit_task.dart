@@ -63,7 +63,7 @@ class _EditTaskPageState extends State<EditTaskPage> {
         final imageRef = _storage.ref().child(widget.taskId);
         final downloadURL = await imageRef.getDownloadURL();
 
-        if (downloadURL != null && downloadURL.isNotEmpty) {
+        if (downloadURL.isNotEmpty) {
           final imageData =
               await NetworkAssetBundle(Uri.parse(downloadURL)).load('');
           setState(() {
@@ -207,15 +207,17 @@ class _EditTaskPageState extends State<EditTaskPage> {
                 Stack(
                   alignment: Alignment.bottomCenter,
                   children: [
-                    Container(
-                      width: 360,
-                      height: 480,
-                      decoration: BoxDecoration(
-                        image: DecorationImage(
-                          image: MemoryImage(_image!),
-                          fit: BoxFit.cover,
+                    Center(
+                      child: Container(
+                        width: 360,
+                        height: 480,
+                        decoration: BoxDecoration(
+                          image: DecorationImage(
+                            image: MemoryImage(_image!),
+                            fit: BoxFit.cover,
+                          ),
+                          borderRadius: BorderRadius.circular(20),
                         ),
-                        borderRadius: BorderRadius.circular(20),
                       ),
                     ),
                     Positioned(
@@ -232,8 +234,8 @@ class _EditTaskPageState extends State<EditTaskPage> {
                             ),
                           ),
                         ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(10),
+                        child: const Padding(
+                          padding: EdgeInsets.all(10),
                           child: Text(
                             'Select image to complete task',
                             style: TextStyle(
@@ -263,8 +265,8 @@ class _EditTaskPageState extends State<EditTaskPage> {
                             ),
                           ),
                         ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(10),
+                        child: const Padding(
+                          padding: EdgeInsets.all(10),
                           child: Text(
                             'Select image to complete task',
                             style: TextStyle(

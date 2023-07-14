@@ -59,10 +59,10 @@ class ToDoList extends StatelessWidget {
                       future: storageRef.child(task.taskId).getDownloadURL(),
                       builder: (context, snapshot) {
                         if (snapshot.connectionState == ConnectionState.waiting) {
-                          return CircularProgressIndicator();
+                          return const CircularProgressIndicator();
                         }
                         if (snapshot.hasError) {
-                          return Text('Error occurred');
+                          return const Text('Error occurred');
                         }
                         final imageUrl = snapshot.data!;
                         return Container(
@@ -81,13 +81,6 @@ class ToDoList extends StatelessWidget {
                               image: NetworkImage(imageUrl),
                               fit: BoxFit.cover,
                             ),
-                            boxShadow: [
-                              BoxShadow(
-                                color: Colors.black.withOpacity(0.2),
-                                offset: const Offset(0, 4),  // Update the offset to create an inner shadow
-                                blurRadius: 8,
-                              ),
-                            ],
                           ),
                           child: InkWell(
                             onTap: () {
@@ -107,7 +100,7 @@ class ToDoList extends StatelessWidget {
                                   Text(
                                     task.title,
                                     style: const TextStyle(
-                                      color: Color(0xFFEDE8DB),
+                                      color: Color.fromARGB(255, 255, 255, 255),
                                       fontSize: 18,
                                     ),
                                   ),

@@ -143,8 +143,8 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                             ),
                           ),
                         ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(10),
+                        child: const Padding(
+                          padding: EdgeInsets.all(10),
                           child: Text(
                             'Select image to complete task',
                             style: TextStyle(
@@ -174,8 +174,8 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                             ),
                           ),
                         ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(10),
+                        child: const Padding(
+                          padding: EdgeInsets.all(10),
                           child: Text(
                             'Select image to complete task',
                             style: TextStyle(
