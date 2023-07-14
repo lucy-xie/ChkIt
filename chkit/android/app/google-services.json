@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "773816928422",
+    "project_id": "chkit-fff8e",
+    "storage_bucket": "chkit-fff8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773816928422:android:d48381074756e22fee4c67",
+        "android_client_info": {
+          "package_name": "com.lucyxie.chkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773816928422-j6954dctq07g1hdl2jkpqf9jdtjm4n9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4cT-OPR2YYP-8TxL4kPjmUIpgP7ett7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773816928422-j6954dctq07g1hdl2jkpqf9jdtjm4n9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
