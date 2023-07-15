@@ -29,6 +29,6 @@ This app utilizes the Flutter framework which enabled me to create a visually ap
 Check it out!
 
 <video controls>
-  <source src="https://example.com/path/to/video.mp4" type="video/mp4">
+  <source src="https://clipchamp.com/watch/sn6UpQoIdsz" type="video/mp4">
   Your browser does not support the video tag.
 </video>
