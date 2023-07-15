@@ -26,9 +26,8 @@ This app features Firebase services for authentication, storage, and database ma
 This app utilizes the Flutter framework which enabled me to create a visually appealing user interface. By implementing interactive components using its widget library, I was able to create an intuitive page to keep track of all tasks and images.
 
 ## Preview
-Check it out!
+Click to watch video!
 
-<video controls>
-  <source src="https://clipchamp.com/watch/sn6UpQoIdsz" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[<img src="https://i.imgur.com/GSAuUbZ.png" width="350">](https://clipchamp.com/watch/sn6UpQoIdsz)
+
+
