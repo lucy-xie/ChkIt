@@ -79,32 +79,8 @@ class Home extends StatelessWidget {
               );
             },
           ),
-          // bottomNavigationBar:ClipRRect(
-          //   borderRadius: const BorderRadius.only(
-          //     topLeft: Radius.circular(20.0),
-          //     topRight: Radius.circular(20.0),
-          //   ),
-          //   child: BottomNavigationBar(
-          //     showSelectedLabels: false,
-          //     showUnselectedLabels: false,
-          //     backgroundColor: green,
-          //     selectedItemColor: orange,
-          //     unselectedItemColor: ivory,
-          //     iconSize: 30,
-          //     items: const [
-          //       BottomNavigationBarItem(
-          //         icon: Icon(Icons.home),
-          //         label: 'Home',
-          //       ),
-          //       BottomNavigationBarItem(
-          //         icon: Icon(Icons.calendar_month_rounded),
-          //         label: 'Upcoming',
-                  
-          //       ),
-          //     ],
-          //   ),
-          ),
         ),
-      );
+      ),
+    );
   }
 }

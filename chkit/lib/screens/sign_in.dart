@@ -59,7 +59,6 @@ class _SignInState extends State<SignIn> {
 
   Future<void> performSignIn() async {
     UserId? user = await _authService.signInAnon();
-    await Future.delayed(const Duration(seconds: 1));
     setState(() {
       isLoading = false;
     });
@@ -79,7 +78,7 @@ class _SignInState extends State<SignIn> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: ivory, // Set the background color to ivory
+      backgroundColor: ivory,
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: green,

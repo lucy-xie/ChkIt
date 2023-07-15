@@ -5,8 +5,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:provider/provider.dart';
 import 'models/user.dart';
 
-
-
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -14,7 +12,7 @@ Future<void> main() async {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({Key? key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,6 +20,7 @@ class MyApp extends StatelessWidget {
       value: AuthService().user,
       initialData: UserId(uid: '0'),
       child: const MaterialApp(
+        debugShowCheckedModeBanner: false, // Add this line
         home: Wrapper(),
       ),
     );
