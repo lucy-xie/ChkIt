@@ -19,15 +19,13 @@ For this project I used Flutter and Firebase.
 
 #### Firebase
 
-This app features Firebase services for authentication, storage, and database management. Each user device will be anonomously logged in with a unique user id and will be able to access their tasks stored in Firestore. The app synchronizes tasks in real-time, ensuring that updates are reflected on their device.
+This app features Firebase services for authentication, storage, and database management. Each user device will be anonymously logged in with a unique user id and will be able to access their tasks stored in Firestore. The app synchronizes tasks in real-time, ensuring that updates are reflected on their device.
 
 #### Flutter
 
 This app utilizes the Flutter framework which enabled me to create a visually appealing user interface. By implementing interactive components using its widget library, I was able to create an intuitive page to keep track of all tasks and images.
 
 ## Preview
-Click to watch video!
+Click to watch [video](https://clipchamp.com/watch/sn6UpQoIdsz)!
 
 [<img src="https://i.imgur.com/GSAuUbZ.png" width="350">](https://clipchamp.com/watch/sn6UpQoIdsz)
-
-
